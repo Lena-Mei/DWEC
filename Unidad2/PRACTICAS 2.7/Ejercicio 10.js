@@ -1,3 +1,4 @@
+'use strict'
 let numOculto, num;
 numOculto= prompt('Introduzca el numero: ');
 num=prompt('Introduzca el numero oculto')

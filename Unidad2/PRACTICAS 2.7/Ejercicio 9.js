@@ -1,3 +1,4 @@
+'use strict'
 let text, num, total, i;
 num=prompt('Introduzca el numero al que quieras ver su factorial: ');
 i=1;

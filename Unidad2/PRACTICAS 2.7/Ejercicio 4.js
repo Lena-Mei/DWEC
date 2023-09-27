@@ -1,6 +1,3 @@
-/*4. Crea un script que pregunte al usuario por el número de un mes y muestre 
-los días que tiene ese mes o un mensaje de error en caso de número de mes incorrecto. 
-Se deberá realizar mediante una sentencia switch. */
 'use strict'
 let mes, esBisiesto;
 mes=parseFloat(prompt('Introduzca el numero del mes: '));
@@ -24,10 +21,10 @@ switch(mes){
     case 2:
         esBisiesto=prompt('¿El mes de Febrero es bisiesto? Si/No');
         if(esBisiesto=='Si'){
-            alert('Este mes tiene 28 dias.')
+            alert('Este mes tiene 29 dias.')
         }
         else{
-            alert('El mes tiene 29 dias.')
+            alert('El mes tiene 28 dias.')
         }
         break;
     default:
